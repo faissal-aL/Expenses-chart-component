@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h4>My balance</h4>
+        <h3>$921.48</h3>
+        <img src="images\logo.svg" alt="logo" />
+      </header>
+      <div class="chart">
+        <h1>Spending - Last 7 days</h1>
+
+        <div id="mon" class="graph"><p></p></div>
+        <div id="tue" class="graph"><p></p></div>
+        <div id="wed" class="graph"><p></p></div>
+        <div id="thu" class="graph"><p></p></div>
+        <div id="fri" class="graph"><p></p></div>
+        <div id="sat" class="graph"><p></p></div>
+        <div id="sun" class="graph"><p></p></div>
+        <h5>mon</h5>
+        <h5>tue</h5>
+        <h5>wed</h5>
+        <h5>thu</h5>
+        <h5>fri</h5>
+        <h5>sat</h5>
+        <h5>sun</h5>
+        <hr />
+        <h4 class="bottom-header left-grid">Total this month</h4>
+        <h2>$478.33</h2>
+
+        <h4 class="bottom-header bold">+2.4%</h4>
+        <h4 class="bottom-header right-bottom">from last month</h4>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
